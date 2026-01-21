@@ -1,0 +1,11 @@
+name="anisul"
+place="mogbazar"
+skill="us"
+age=58
+cgpa=4.50
+print("my name is "+name)
+print("i have complete my hsc from "+place)
+print("i have basic skill:"+skill)
+print("my age is" +str(age)+ "years old")
+print("my cgpa is:"+str(cgpa))
+print(name+" live in Dhaka")
