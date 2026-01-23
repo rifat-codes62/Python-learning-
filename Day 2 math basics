@@ -1,0 +1,10 @@
+
+from math import e
+
+
+print(max(34535,56756))
+print(min(455,46,555))
+print(abs(2))
+print(pow(2,3))
+print(round(35,34))
+
