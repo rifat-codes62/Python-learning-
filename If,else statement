@@ -1,0 +1,32 @@
+#pass/fail
+
+
+mark=70
+
+if mark>=33:
+     print("pass")
+
+else:
+     print("fail")
+
+
+#even/odd 
+
+num=20
+
+if num%2==0: 
+   print("even")
+
+else:
+   print("odd")
+
+#largest number 
+
+num1=20
+num2=40.5
+
+if num1 < num2 :
+   print("num2")
+else:
+   print("num1")
+   
