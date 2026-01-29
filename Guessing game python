@@ -1,0 +1,18 @@
+from random import randint 
+
+
+
+guessnumber=int(input("Enter your number 1 to 6:"))
+
+
+randomnumber=randint(1,7)
+
+
+if guessnumber==randomnumber:
+   print("you have won")
+
+else:
+
+   print("you have lost")
+  
+print("Random number was:",randomnumber)
