@@ -1,0 +1,16 @@
+def translate(phase):
+  
+   translate=""
+   for letter in phase:
+       if letter in "aeiou":
+          translate=translate+"lower vowel"
+       elif letter in "AEIOU":
+           
+           translate=translate+"upper vowel"
+       else:
+          translate=translate +letter
+   return translate
+    
+    
+print(translate(input("Enter the phase:" )))
+    
