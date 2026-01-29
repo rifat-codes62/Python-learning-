@@ -1,0 +1,15 @@
+secret_Word="Rifat"
+guess_word=""
+guess_count=0
+guess_limit=4
+out_of_guess=False
+while guess_word != secret_Word and not (out_of_guess):
+ if guess_count<guess_limit: 
+    guess_word=input("Enter guess:")
+    guess_count+=1
+else:
+    out_of_guess=True
+if guess_word==secret_Word:
+   print("Hurry!you won")
+else:
+    print("Alas!you lose")
