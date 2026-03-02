@@ -1,4 +1,3 @@
-# Python-learning-
-My 1 year journey 
+FAANG interview call preparation journey in 8 month
 
 
